@@ -294,7 +294,7 @@ h2{
     }
 }
 @media screen and (max-width: 400px) {
-    .header{width: 100%;}
+    .header{width: 88%;}
     .container{padding: 30px 5px !important;}
     h1{font-size: 40px !important;}
     h2{font-size: 30px !important;}

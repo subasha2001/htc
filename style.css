@@ -304,6 +304,7 @@ h2{
 
 @media screen and (max-width: 400px) {
     .container{padding: 30px 5px !important;}
+    .container.con-1{padding: 130px 0px 30px !important;}
     h1{font-size: 25px;}
     h2{font-size: 25px;}
     p{line-height: 20px;}
