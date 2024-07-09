@@ -124,7 +124,7 @@ h2{
 }
 .con-1 .mx-w{
     margin: 0 auto;
-    max-width: 1500px;
+    max-width: 1400px;
 }
 .con-1 h1{
     font-size: 70px;
@@ -178,11 +178,12 @@ h2{
     max-width: 1190px;
     margin: 0px auto;
 }
-.con-4 .flip-card .flip-card-back a:hover .dn{
+.con-4 .flip-card .flip-card-back .pos-rel:hover .dn{
     display: block;
-    top: 25px;
+    top: 30px;
+    color: black;
     background-color: #f1e5d1;
-    left: -10px;
+    left: 42px;
     width: 100px;
     border-radius: 5px;
     padding: 5px;
@@ -217,7 +218,7 @@ h2{
   }
   
   .flip-card-front {
-    background-color: #fff;
+    background-color: #ffffff3b;
     color: black;
   }
   .flip-card-front div{

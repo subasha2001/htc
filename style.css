@@ -164,8 +164,8 @@ h1{
 .con-2 {
     background-image: url("./images/TC.png");
     background-repeat: no-repeat;
-    background-size: 200px;
-    background-position: 159px -30px;
+    background-size: 250px;
+    background-position: 85px 90px;
 }
 .con-2 .grid .gridsec2{width: 50%;}
 .con-2 p{
