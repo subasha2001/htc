@@ -139,7 +139,7 @@ h2{
 }
 
 .con-3 .img-gallery{
-    max-width: 1200px;
+    max-width: 1125px;
     margin: 40px auto 0;
 }
 .con-3 .img-gallery .grid div{
@@ -150,6 +150,15 @@ h2{
     flex-wrap: wrap;
     max-width: 1190px;
     margin: 0px auto;
+}
+.con-4 .flip-card .flip-card-back a:hover .dn{
+    display: block;
+    top: 25px;
+    background-color: #f1e5d1;
+    left: -10px;
+    width: 100px;
+    border-radius: 5px;
+    padding: 5px;
 }
 .flip-card {
     background-color: transparent;

@@ -178,6 +178,15 @@ h2{
     max-width: 1190px;
     margin: 0px auto;
 }
+.con-4 .flip-card .flip-card-back a:hover .dn{
+    display: block;
+    top: 25px;
+    background-color: #f1e5d1;
+    left: -10px;
+    width: 100px;
+    border-radius: 5px;
+    padding: 5px;
+}
 .flip-card {
     background-color: transparent;
     width: 200px;
