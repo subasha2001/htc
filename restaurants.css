@@ -140,6 +140,7 @@ h2{
     max-width: 320px;
     text-shadow: 2px 2px #090703;
 }
+.con-1 h2:last-child{text-shadow: none;}
 .con-1 .grid .gridsec2:nth-child(2){
     width: 80%;
     box-shadow: 10px 10px 50px -20px;
