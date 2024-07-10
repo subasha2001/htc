@@ -279,7 +279,7 @@ h2{
     .pages-header, .con-5 .gridsec2:first-child, .footer hr{
         display: none;
     }
-    .header{width: 90%;}
+    /* .header{width: 90%;} */
     .header .nav-bar{
         display: block;
     }
@@ -304,8 +304,9 @@ h2{
         max-width: 120px;
     }
 }
-@media screen and (max-width: 400px) {
-    .header{width: 88%;}
+@media screen and (max-width: 414px) {
+    .header{width: 414px; height: auto;}
+    .header .logo{max-width: 250px;}
     .container{padding: 30px 5px !important;}
     h1{font-size: 40px !important;}
     h2{font-size: 30px !important;}
@@ -317,6 +318,7 @@ h2{
         text-align: left;
         line-height: 20px;
     }
+    .con-4 .grid.jcsb{max-width: 350px;}
     .con-4 .grid.jcsb{justify-content: center;}
     .alive-nav{left: -177px;}
     .footer .mx-w.grid .grid{flex-direction: column;}
