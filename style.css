@@ -302,7 +302,7 @@ h2{
     .footer .mx-w.grid .grid{justify-content: space-around;}
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 414px) {
     .container{padding: 30px 5px !important;}
     .container.con-1{padding: 130px 0px 30px !important;}
     h1{font-size: 25px;}

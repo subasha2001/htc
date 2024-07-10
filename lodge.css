@@ -250,7 +250,7 @@ h2{
     .pages-header, .con-5 .gridsec2:first-child, .footer hr{
         display: none;
     }
-    .header{width: 90%;}
+    /* .header{width: 90%;} */
     .header .nav-bar{
         display: block;
     }
@@ -287,8 +287,9 @@ h2{
         max-width: 120px;
     }
 }
-@media screen and (max-width: 400px) {
-    .header{width: 88%;}
+@media screen and (max-width: 414px) {
+    .header{width: 414px; height: auto;}
+    .header .logo{max-width: 250px;}
     .container{padding: 30px 5px;}
     .con-1{padding: 120px 0 30px;}
     h1{font-size: 40px !important;}
