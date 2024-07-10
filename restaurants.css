@@ -275,7 +275,6 @@ h2{
     }
 }
 @media screen and (max-width: 768px) {
-    body{overflow-x: hidden ;}
     .pages-header, .con-5 .gridsec2:first-child, .footer hr{
         display: none;
     }
@@ -285,7 +284,7 @@ h2{
     }
     .grid .gridsec2 {
         width: 70%;
-        margin: 15px;
+        margin: 15px 0;
     }
     
     .con-2{background-image: none;}
@@ -295,7 +294,8 @@ h2{
     }
     .con-1 .gridsec2{text-align: center;}
     .con-1 h2, .con-res .cards div, .con-2 .cards, .con-3 .cards{margin:5px auto 20px;}
-    .con-res .cards div, .con-2 .cards, .con-3 .cards{max-width: 300px;}
+    .con-res .cards div, .con-2 .cards, .con-3 .cards{max-width: 200px;}
+    .con-2 .card, .con-3 .card{margin-right: 0;}
     .con-1 h1{font-size: 55px;}
     .con-4 .grid.jcsb{max-width: 500px;}
     .gap100{gap: 0px;}

@@ -246,7 +246,6 @@ h2{
     }
 }
 @media screen and (max-width: 768px) {
-    body{overflow-x: hidden ;}
     .pages-header, .con-5 .gridsec2:first-child, .footer hr{
         display: none;
     }
@@ -280,7 +279,7 @@ h2{
         max-width: 500px;
         margin: 10px auto;
     }
-    .con-4 .grid.jcsb{max-width: 500px;}
+    .con-4 .grid.jcsb{max-width: 300px;}
     .gap100{gap: 60px;}
     .footer .mx-w.grid .grid{justify-content: space-around;}
     .footer img {
@@ -303,7 +302,7 @@ h2{
         line-height: 20px;
     }
     .con-3 .img-gallery .grid div{
-        max-width: 300px;
+        max-width: 214px;
     }
     .con-4 .grid.jcsb{justify-content: center;}
     .alive-nav{left: -177px;}
