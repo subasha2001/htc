@@ -127,16 +127,20 @@ h2{
     max-width: 1400px;
 }
 .con-1 h1{
-    font-size: 70px;
+    font-size: 50px;
     color: #33336a;
-    margin: 20px auto 0px;
+    margin: 45px auto 0px;
     font-weight: 400;
     text-shadow: 2px 2px #090703;
+}
+h1 span {
+    background-color: #323173;
+    color: #f9dece;
+    padding-top: 10px;
 }
 .con-1 h2{
     font-family: "Dancing Script", cursive; 
     font-size: 50px;
-    margin: 70px 0;
     max-width: 320px;
     text-shadow: 2px 2px #090703;
 }
@@ -144,10 +148,22 @@ h2{
 .con-1 .grid .gridsec2:nth-child(2){
     width: 80%;
 }
+.con-1 .pos-rel img{width: 100px;opacity: 0.1;}
+.con-1 .pos-rel img:nth-child(1){top: 0px; right: 20px;}
+.con-1 .pos-rel .rest-icon4{bottom: 0px; left: -100px;}
+.con-1 .pos-rel .lodge-icon2{top: 100px; left: -125px; width: 170px;}
+.con-1 .pos-rel img.rest-icon3{bottom: 70px; right: 170px;}
 .gridsec2 img {
     box-shadow: 10px 10px 50px -20px;
 }
-.con-res .cards div{margin-right: 10px;}
+.con-res .cards div{margin-right: 10px;z-index: 1;}
+.con-res .cards div .pos-abs{
+    margin-left: -40px;
+    max-width: 300px;
+    z-index: -1;
+    top: 10px;
+    left: -200px;
+}
 .con-2 .card, .con-3 .card{
     max-width: 300px;
     box-shadow: none;
@@ -223,6 +239,7 @@ h2{
   }
   .flip-card-front div{
     max-width: 100px;
+    margin: 10px auto;
     top: 20px;
     left: 25%;
   }
@@ -285,7 +302,14 @@ h2{
         width: 70%;
         margin: 15px 0;
     }
-    
+    .con-1 .pos-rel img{display: none;}
+    .con-res .cards div .pos-abs{
+        margin-left: -40px;
+        max-width: 200px;
+        z-index: -1;
+        top: 10px;
+        left: -10px;
+    }
     .con-2{background-image: none;}
     .con-1 .mx-w, .con-res .cards, .con-2 .cards, .con-3 .cards, .footer .mx-w.grid{
         flex-direction: column;
@@ -302,6 +326,7 @@ h2{
     .footer img{
         max-width: 120px;
     }
+
 }
 @media screen and (max-width: 414px) {
     .header{width: 414px; height: auto;}

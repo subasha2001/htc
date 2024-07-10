@@ -8,14 +8,12 @@ body, h1, h2, h3, h4, h5, h6, p, a, ul{
 .pos-abs{position: absolute;}
 .grid{display: flex;}
 .jcsb{justify-content: space-between;}
-.jcsa{justify-content: space-around;}
 .jcse{justify-content: space-evenly;}
 .aic{align-items: center;}
 .jcc{justify-content: center;}
 img{width: 100%}
 .w100{width: 100%;}
 .tac{text-align: center;}
-.tar{text-align: right;}
 .grid .gridsec2{width: 48%;}
 .gap100{gap: 95px;}
 .container{
@@ -27,12 +25,8 @@ img{width: 100%}
 }
 a{color: black;text-decoration: none;}
 li{list-style-type: none;}
-.bg-y{background-color: #ffdd21;}
-.bg-bgr{background-color: #00a982e8;}
 .bg-b{background-color: #e2e3e5;}
-.col-o{color: #e1732d;}
 .col-main{color: #323173;}
-.col-w{color: white;}
 .dn{display: none !important;}
 /* header */
 .header .h-links{
