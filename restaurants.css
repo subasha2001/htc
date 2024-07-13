@@ -136,9 +136,10 @@ h2{
     background-image: url("./images/hotel-vadi.png");
 }
 .con-1{
+    height: 70vh;
     padding: 140px 0px 30px !important;
     background-color: #e3722c3b;
-    background-image: url("./images/hotel-front-page.png");
+    background-image: url("./images/restaurent-ng-image.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
@@ -147,8 +148,8 @@ h2{
     max-width: 1400px;
 }
 .con-1 h1{
-    font-size: 100px;
-    background-color: white;
+    font-size: 160px;
+    /* background-color: white; */
     color: #33336a;
     margin: 150px auto;
     font-weight: 400;
@@ -164,7 +165,7 @@ h1 span {
 .con-1 h2{
     font-family: "Dancing Script", cursive; 
     font-size: 50px;
-    margin: 60px 0 100px;
+    margin: 60px auto 100px;
     text-shadow: 2px 2px #090703;
 }
 .con-1 h2:last-child{text-shadow: none;}
