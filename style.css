@@ -46,7 +46,7 @@ li{list-style-type: none;}
 .header .h-links.home a{
     color: white;}
 .header{
-    height: 115px;
+    height: 100px;
     position: fixed;
     width: 100%;
     border-top: 5px solid #323173;
@@ -56,7 +56,7 @@ li{list-style-type: none;}
 }
 .header .logo{
     padding: 10px;
-    max-width: 340px;
+    max-width: 275px;
 }
 .header input{
     padding: 5px;
@@ -162,10 +162,15 @@ h1{
     margin: 20px 0;
 }
 .con-2 {
-    background-image: url("./images/TC.png");
+    background-image: url("./images/temple-bg.png");
     background-repeat: no-repeat;
-    background-size: 250px;
-    background-position: 85px 90px;
+    background-size: 600px;
+    background-position: -80px 0px;
+
+}
+.con-2 span{
+    background-color: #fdc801;
+    padding-top: 10px;
 }
 .con-2 .grid .gridsec2{width: 50%;}
 .con-2 p{
@@ -213,6 +218,19 @@ h1{
 h2{
     font-size: 30px;
     margin-bottom: 20px;
+}
+.con-3 h2{
+    border-radius: 50px !important;
+    border-right: 20px solid #323173 !important;
+    border-left: 20px solid #323173 !important;
+}
+.con-3 h2, .con-4 h2{
+    padding: 15px 30px 10px;
+    border-right: 20px solid #e1732d;
+    border-left: 20px solid #e1732d;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    box-shadow: 10px 10px 50px -20px #323173;
 }
 .con-3 .gridsec2 p , .con-4 .gridsec2 p{
     font-size: 18px;

@@ -44,17 +44,19 @@ li{list-style-type: none;}
 .header .h-links.lodge a{
     color: white;}
 .header{
-    height: 115px;
+    height: 100px;
     position: fixed;
     width: 100%;
     border-top: 5px solid #323173;
-    box-shadow: 0px -5px 20px 0px #323173;
     z-index: 9;
-    background-color: white;
 }
 .header .logo{
     padding: 10px;
-    max-width: 340px;
+    max-width: 275px;
+}
+.light{
+    background-color: white;
+    box-shadow: 0px 5px 20px 0px #323173;   
 }
 .header input{
     padding: 5px;
@@ -121,25 +123,39 @@ h2{
     box-shadow: 10px 10px 50px -20px;
     max-width: 100px;
 }
-.con-1{
-    padding: 120px 0px 0px;
+.con-2{
+    padding: 150px 0;
+    background-image: url("./images/lodge1.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
 }
 .con-2 h1{
-    max-width: 950px;
-    font-size: 70px;
-    margin: 25px 0;
-    color: #f1e5d1;
-    background-color: #323173;
-    font-weight: 400;
+    position: absolute;
+    top: 50%;
+    font-size: 100px;
+    color: #323173;
+    background-color: #fff;
     padding: 10px 10px 0 0;
-    text-shadow: 5px 5px #090703;
+    text-shadow: 3px 3px #090703;
 }
 .con-2 h2{
+    position: absolute;
+    top: 40%;
     font-size: 50px;
     max-width: 320px;
     text-shadow: 2px 2px #090703;
 }
-
+.con-3 h2, .con-4 h2{
+    border: 1px solid;
+    border-right: 20px solid #e1732d;
+    border-left: 20px solid #e1732d;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    max-width: 450px;
+    margin: 0 auto 20px;
+    padding-top: 10px;
+}
 .con-3 .img-gallery{
     max-width: 1125px;
     margin: 40px auto 0;
@@ -153,6 +169,14 @@ h2{
     max-width: 1190px;
     margin: 0px auto;
 }
+.con-4 p{
+    color: #323173;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+    text-decoration: underline;
+}
+
 .con-4 .flip-card .flip-card-back .pos-rel:hover .dn{
     display: block;
     top: 30px;
@@ -256,7 +280,10 @@ h2{
     .header .nav-bar{
         display: block;
     }
-    .con-2{background-image: none;}
+    .con-2{
+        height: 70vh;
+        background-image: url("./images/lodge1-1.png");
+    }
     .con-2 .mx-w, .con-3 .grid, .footer .mx-w.grid{
         text-align: center;
         flex-direction: column;
@@ -267,7 +294,14 @@ h2{
         justify-content: center;
     }
     .grid .gridsec2{width: 70%;}
-    .con-2 h2{margin: 0 auto;}
+    .con-2 h2{
+        left: 26%;
+        color: white;
+        background-color: black;
+        padding: 10px;
+        top: 40% !important;
+        border: 2px solid;
+    }
     .hotel{
         border-radius: 0;
         border: none;
@@ -294,7 +328,12 @@ h2{
     .header .logo{max-width: 250px;}
     .container{padding: 30px 5px;}
     .con-1{padding: 120px 0 30px;}
-    h1{font-size: 40px !important;}
+    h1{
+        font-size: 60px !important;
+        left: 0%;
+        top: 50% !important;
+        border: 3px solid;
+    }
     h2{font-size: 30px !important;margin: 0px auto 15px;}
     p{line-height: 20px;}
     .con-1 .grid .gridsec2:nth-child(2){width: 100%;}

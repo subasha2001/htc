@@ -6,3 +6,11 @@ function openNavBar(){
     }
   }
 AOS.init();
+
+window.addEventListener("scroll", ()=>{
+  if(scrollY > 0){
+    document.getElementById("header").classList.add("light");
+  }else{
+    document.getElementById("header").classList.remove("light");
+  }
+})

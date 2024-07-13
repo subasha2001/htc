@@ -37,17 +37,19 @@ li{list-style-type: none;}
 .header .h-links.contact{background-color: #323173;}
 .header .h-links.contact a{color: white;}
 .header{
-    height: 115px;
+    height: 100px;
     position: fixed;
     width: 100%;
     border-top: 5px solid #323173;
-    box-shadow: 0px -5px 20px 0px #323173;
     z-index: 9;
-    background-color: white;
+    box-shadow: 0px 5px 20px 0px #323173;   
 }
 .header .logo{
     padding: 10px;
-    max-width: 340px;
+    max-width: 275px;
+}
+.light{
+    background-color: white;
 }
 .header input{
     padding: 5px;
@@ -81,6 +83,7 @@ li{list-style-type: none;}
     height: 30px;
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
+    box-shadow: 0px 0px 40px -20px #da7435;
 }
 .header i{
     color: white;
@@ -110,7 +113,7 @@ li{list-style-type: none;}
 
 .container.con-1, .con-5{
     padding: 130px 0px 60px !important;
-    background-color: #323173;
+    background-color: #da7435;
     color: white;
 }
 h1{
@@ -124,26 +127,26 @@ input{
     margin: 10px 0;
 }
 .con-2 h2, .con-3 h2{
-    color: #323173;
+    color: #da7435;
 }
 .con-2 .mx-w div:first-child{
     max-width: 485px;
     background: white;
     padding: 20px;
     margin: -99px 0 0px 70px;
-    box-shadow: 0px 0px 40px -20px #2e2d7a;
+    box-shadow: 0px 0px 40px -20px #da7435;
 }
 .btn{
     cursor: pointer;
     padding: 15px 40px;
     border-radius: 5px;
-    background: #3231732d;
-    border: 1px solid #3231739c;
+    background: #da7435;
+    border: 1px solid #da7435;
     color: black;
     margin: 20px 0;
 }
 .btn:hover{
-    background-color: #323173;
+    background-color: #da7435;
     color: white;
 }
 .con-2 .pos-rel .pos-abs{top: -250px;right: 0px;}
@@ -160,7 +163,7 @@ input{
     gap: 80px;
     font-size: 30px;
     margin: 20px auto;
-    background: #323173;
+    background: #da7435;
     max-width: 500px;
     border-radius: 50px;
 }
